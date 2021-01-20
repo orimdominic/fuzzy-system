@@ -2,7 +2,7 @@
 
 A service integration API for currency exchange
 
-baseUrl: `https://sleepy-falls-88925.herokuapp.com`
+baseUrl: `https://fathomless-thicket-03888.herokuapp.com`
 
 **GET** `/api/rates?base=baseCurrency&currency=currency1,currency2,currency3`
 
