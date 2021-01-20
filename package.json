@@ -1,0 +1,27 @@
+{
+  "name": "fuzzy-system",
+  "version": "0.1.0",
+  "description": "A service integration API for currency exchange",
+  "main": "index.js",
+  "repository": "https://github.com/sudo-kaizen/fuzzy-system",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "NODE_ENV=production node index",
+    "stop": "pm2 stop index",
+    "pm2-list": "pm2 list",
+    "dev": "NODE_ENV=development nodemon",
+    "debug": "NODE_ENV=development nodemon --inspect-brk",
+    "format": "prettier --write .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  }
+}
